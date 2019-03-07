@@ -7,4 +7,7 @@ The solutions are in the form of jupyter notebooks running the
 [Calysto Scheme](https://github.com/Calysto/calysto_scheme) kernel, one
 notebook for each chapter.
 
-- [Chapter 1](https://github.com/nradk/sicp-solutions/blob/master/chapter-1.ipynb)
+### Chapter 1
+- [Section 1.1](https://github.com/nradk/sicp-solutions/blob/master/chapter-1.1.ipynb)
+- [Section 1.2](https://github.com/nradk/sicp-solutions/blob/master/chapter-1.2.ipynb)
+- [Section 1.3](https://github.com/nradk/sicp-solutions/blob/master/chapter-1.3.ipynb)
