@@ -1,0 +1,15 @@
+digraph links {
+    node [shape=Mrecord];
+    one [label="<f> 1 | <s>  "]; 
+    afterone [label="<f>  | <s> nil "]; 
+    two [label="<f> 2 | <s>  "];
+    aftertwo [label="<f>  | <s> nil "];
+    three [label="<f> 3 | <s>  "];
+    four [label="<f> 4 | <s> nil "];
+
+    one:s:c -> afterone:f [arrowtail=dot, dir=both, tailclip=false];
+    afterone:f:c -> two:f [arrowtail=dot, dir=both, tailclip=false];
+    two:s:c -> aftertwo:f [arrowtail=dot, dir=both, tailclip=false];
+    aftertwo:f:c -> three:f [arrowtail=dot, dir=both, tailclip=false];
+    three:s:c -> four:f [arrowtail=dot, dir=both, tailclip=false];
+}

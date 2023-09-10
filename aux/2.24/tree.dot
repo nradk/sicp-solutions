@@ -1,0 +1,18 @@
+digraph links {
+    node [shape=none];
+    
+    top [label="(1 (2 (3 4)))"];
+    one [label="1"];
+    mid [label="(2 (3 4))"];
+    two [label="2"];
+    bottom [label="(3 4)"];
+    three [label="3"];
+    four [label="4"];
+
+    top -> one;
+    top -> mid;
+    mid -> two;
+    mid -> bottom;
+    bottom -> three;
+    bottom -> four;
+}
