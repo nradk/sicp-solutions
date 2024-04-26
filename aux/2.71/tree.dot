@@ -1,0 +1,22 @@
+digraph links {
+    node [shape=none];
+
+    1 [label="n1. f=1"];
+    2 [label="n2. f=2"];
+    3 [label="{n1, n2}. f=3"];
+    4 [label="n3. f=4"];
+    7 [label="{n1, n2, n3}. f=7"];
+    8 [label="n4. f=8"];
+    15 [label="{n1, n2, n3, n4}. f=15"];
+    16 [label="n5. f=16"];
+    31 [label="{n1, n2, n3, n4, n5}. f=31"];
+
+    31->16;
+    31->15;
+    15->8;
+    15->7;
+    7->4;
+    7->3;
+    3->2;
+    3->1;
+}
